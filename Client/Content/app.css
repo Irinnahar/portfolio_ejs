@@ -1,1 +1,13 @@
 /* your custom css goes here */
+
+.bg-dark {
+    background-color: #212529;
+}
+
+.body-text-color {
+    color: #adb5bd;
+}
+
+.min-100 {
+    min-height: 100%;
+}
