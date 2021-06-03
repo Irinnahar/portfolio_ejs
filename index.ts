@@ -7,7 +7,7 @@
  import createError from 'http-errors';
  import app from './app';
  import debug from 'debug';
- debug('week-3d:server');
+ debug('portfolio server debug');
  import http from 'http';
  
  /**

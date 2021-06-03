@@ -9,14 +9,50 @@
 
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <!------- navbar -------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  collapse navbar-collapse ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home"><i class="fas fa-home fa-lg"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/about"><i class="fas fa-info"></i> About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/projects"><i class="fas fa-cog"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/services"><i class="fas fa-map"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contact"><i class="fas fa-phone-alt"></i> Contact Me</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
 
+  <!------ main body ----------->
+  <div class="container">
+    <h1>Welcome to <%= title %> page</h1>
+  </div>
+
+  <!---------Sticky footer --------->
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fixed bottom</a>
+    </div>
+  </nav>
     <!-------- scripts ---------->
     <scripts src="jquery/dist/jquery.min.js"></scripts>
     <scripts src="bootstrap/dist/js/bootstrap.min.js"></scripts>
     <scripts src="Scripts/app.js"></scripts>
   </body>
 </html>
-
-<html
