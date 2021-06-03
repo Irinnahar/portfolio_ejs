@@ -4,7 +4,7 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
-let indexRouter =  require('./routes/index');
+import indexRouter from './routes/index';
 
 const app = express();
 export default app; // exports app as the default Object for this module
