@@ -29,7 +29,14 @@ router.get('/projects', function(req, res, next) {
 
 /* GET services page. */
 router.get('/services', function(req, res, next) {
-    res.render('services', { title: 'Services' });
+    res.render('services', {
+        title: 'Services',
+        services: [
+            { image: "Assets/images/service_img1.png", name: "Web Design & Development" },
+            { image: "Assets/images/service_img2.png", name: "Mobile Application Development" },
+            { image: "Assets/images/service_img3.png", name: "Database Administration" }
+        ]
+    });
 });
 
 /* GET contact page. */

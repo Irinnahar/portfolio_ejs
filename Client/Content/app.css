@@ -31,3 +31,8 @@
     font-weight: bold;
     transition: 0.3s;
 }
+
+body {
+    height: 100vh!important;
+    background-color: #2d2e2f!important;
+}
