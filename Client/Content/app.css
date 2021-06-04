@@ -28,4 +28,6 @@
     color: #b88c09;
     background-color: ghostwhite;
     border-color: ghostwhite;
+    font-weight: bold;
+    transition: 0.3s;
 }

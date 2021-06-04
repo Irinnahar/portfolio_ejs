@@ -23,7 +23,8 @@ router.get('/about', function(req, res, next)
 /* GET projects page. */
 router.get('/projects', function(req, res, next) 
 {
-  res.render('index', { title: 'Projects' });
+  res.render('projects', { title: 'Projects', projectList: {name: "Graaho", image: "Assets/images/company-image2.png", descriptioon: "Company website made with angular, html, css", link: "https://www.graaho.com/"}  });
+
 });
 
 /* GET services page. */
