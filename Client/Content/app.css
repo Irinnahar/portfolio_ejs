@@ -11,3 +11,7 @@
 .min-100 {
     min-height: 100%;
 }
+
+img.logoImg {
+    height: 50px;
+}
