@@ -11,3 +11,21 @@
 .min-100 {
     min-height: 100%;
 }
+
+.aboutImage {
+    height: 50vh!important;
+}
+
+.aboutImage img {
+    height: 100%;
+}
+
+#about-container {
+    height: 100vh;
+}
+
+.btn-warning:hover {
+    color: #b88c09;
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+}
