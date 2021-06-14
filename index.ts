@@ -5,7 +5,7 @@
  */
 
  import createError from 'http-errors';
- import app from './app';
+ import app from './config/app';
  import debug from 'debug';
  debug('portfolio server debug');
  import http from 'http';
